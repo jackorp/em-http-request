@@ -1,7 +1,5 @@
 language: ruby
+sudo: true
 rvm:
-  - 2.2.4
+  - 2.5.1
 script: bundle exec rake spec
-notifications:
-  email:
-    - ilya@igvita.com
